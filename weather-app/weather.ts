@@ -66,9 +66,9 @@ return;
     console.log(`Weather: ${getWeatherText(weather.weathercode)}`);
     console.log(`city:${cityname?.name} and country name: ${cityname?.country}`);
     }
-    catch(erorr)
+    catch(error)
     {
-console.log(`try again`,erorr);
+console.log(`try again`,error);
     }
     
 };
